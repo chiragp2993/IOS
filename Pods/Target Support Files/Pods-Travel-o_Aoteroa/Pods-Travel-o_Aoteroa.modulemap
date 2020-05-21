@@ -1,0 +1,6 @@
+framework module Pods_Travel_o_Aoteroa {
+  umbrella header "Pods-Travel-o_Aoteroa-umbrella.h"
+
+  export *
+  module * { export * }
+}

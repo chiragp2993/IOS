@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46019A2B2447111C0050C810 /* SI_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46019A2A2447111C0050C810 /* SI_CollectionViewCell.swift */; };
+		465D69E1244D27FC00FB2A0E /* NI_DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */; };
+		466F483C245D827400C44F0B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F483B245D827400C44F0B /* LoginController.swift */; };
+		466F483E245D849100C44F0B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F483D245D849100C44F0B /* RegisterController.swift */; };
+		46A004472437004D00C96B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A004462437004D00C96B86 /* AppDelegate.swift */; };
+		46A004492437004D00C96B86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A004482437004D00C96B86 /* SceneDelegate.swift */; };
+		46A0044B2437004D00C96B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0044A2437004D00C96B86 /* ViewController.swift */; };
+		46A0044E2437004D00C96B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0044C2437004D00C96B86 /* Main.storyboard */; };
+		46A004502437005000C96B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A0044F2437005000C96B86 /* Assets.xcassets */; };
+		46A004532437005000C96B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A004512437005000C96B86 /* LaunchScreen.storyboard */; };
+		46BA5967245E705F0039EA30 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA5964245E705F0039EA30 /* Utilities.swift */; };
+		46BA5969245E723B0039EA30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46BA5968245E723B0039EA30 /* GoogleService-Info.plist */; };
+		46BEBF47245EC77500C820C5 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BEBF46245EC77500C820C5 /* Validation.swift */; };
+		46C3228C247154690043ECD7 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C32283247154690043ECD7 /* Spark.swift */; };
+		46C3228D247154690043ECD7 /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C32284247154690043ECD7 /* FaveIcon.swift */; };
+		46C3228E247154690043ECD7 /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C32285247154690043ECD7 /* FaveButton.swift */; };
+		46C3228F247154690043ECD7 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C32286247154690043ECD7 /* Ring.swift */; };
+		46C32290247154690043ECD7 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C32288247154690043ECD7 /* Geometry.swift */; };
+		46C32291247154690043ECD7 /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C32289247154690043ECD7 /* Easing.swift */; };
+		46C32292247154690043ECD7 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3228A247154690043ECD7 /* Init.swift */; };
+		46C32293247154690043ECD7 /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3228B247154690043ECD7 /* Constraints+.swift */; };
+		46E61F7524519D0300E2E6A6 /* SI_DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E61F7424519D0300E2E6A6 /* SI_DViewController.swift */; };
+		46E61F772451A9D900E2E6A6 /* NI_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E61F762451A9D900E2E6A6 /* NI_ViewController.swift */; };
+		46E61F792451A9E900E2E6A6 /* SI_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E61F782451A9E900E2E6A6 /* SI_ViewController.swift */; };
+		46E8AAA62446966E00616688 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8AAA52446966E00616688 /* CollectionViewCell.swift */; };
+		746F6190D94EFEF8688B4898 /* Pods_Travel_o_Aoteroa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A84C95A5D1569E292370975 /* Pods_Travel_o_Aoteroa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A84C95A5D1569E292370975 /* Pods_Travel_o_Aoteroa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_o_Aoteroa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46019A2A2447111C0050C810 /* SI_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SI_CollectionViewCell.swift; sourceTree = "<group>"; };
+		465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NI_DViewController.swift; sourceTree = "<group>"; };
+		466F483B245D827400C44F0B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		466F483D245D849100C44F0B /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		46A004432437004D00C96B86 /* Travel-o_Aoteroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel-o_Aoteroa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A004462437004D00C96B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46A004482437004D00C96B86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46A0044A2437004D00C96B86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46A0044D2437004D00C96B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46A0044F2437005000C96B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46A004522437005000C96B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46BA5964245E705F0039EA30 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		46BA5968245E723B0039EA30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46BEBF46245EC77500C820C5 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		46C32283247154690043ECD7 /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
+		46C32284247154690043ECD7 /* FaveIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveIcon.swift; sourceTree = "<group>"; };
+		46C32285247154690043ECD7 /* FaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveButton.swift; sourceTree = "<group>"; };
+		46C32286247154690043ECD7 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		46C32288247154690043ECD7 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		46C32289247154690043ECD7 /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
+		46C3228A247154690043ECD7 /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
+		46C3228B247154690043ECD7 /* Constraints+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constraints+.swift"; sourceTree = "<group>"; };
+		46E61F7424519D0300E2E6A6 /* SI_DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SI_DViewController.swift; sourceTree = "<group>"; };
+		46E61F762451A9D900E2E6A6 /* NI_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NI_ViewController.swift; sourceTree = "<group>"; };
+		46E61F782451A9E900E2E6A6 /* SI_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SI_ViewController.swift; sourceTree = "<group>"; };
+		46E8AAA52446966E00616688 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6A3DAC3A6ADC7480DC34E559 /* Pods-Travel-o_Aoteroa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel-o_Aoteroa.debug.xcconfig"; path = "Target Support Files/Pods-Travel-o_Aoteroa/Pods-Travel-o_Aoteroa.debug.xcconfig"; sourceTree = "<group>"; };
+		E095B162DCD364B9A58041DE /* Pods-Travel-o_Aoteroa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel-o_Aoteroa.release.xcconfig"; path = "Target Support Files/Pods-Travel-o_Aoteroa/Pods-Travel-o_Aoteroa.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A004402437004D00C96B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746F6190D94EFEF8688B4898 /* Pods_Travel_o_Aoteroa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A0043A2437004D00C96B86 = {
+			isa = PBXGroup;
+			children = (
+				46C32282247154690043ECD7 /* Source */,
+				46A004452437004D00C96B86 /* Travel-o_Aoteroa */,
+				46A004442437004D00C96B86 /* Products */,
+				46A0044F2437005000C96B86 /* Assets.xcassets */,
+				FB1B29DAE855E0EC517B030C /* Pods */,
+				6969452BDD4C17B3C75093E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46A004442437004D00C96B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A004432437004D00C96B86 /* Travel-o_Aoteroa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A004452437004D00C96B86 /* Travel-o_Aoteroa */ = {
+			isa = PBXGroup;
+			children = (
+				46A004462437004D00C96B86 /* AppDelegate.swift */,
+				46A004482437004D00C96B86 /* SceneDelegate.swift */,
+				46A0044C2437004D00C96B86 /* Main.storyboard */,
+				46A004512437005000C96B86 /* LaunchScreen.storyboard */,
+				46BA5964245E705F0039EA30 /* Utilities.swift */,
+				46BEBF46245EC77500C820C5 /* Validation.swift */,
+				46BA5968245E723B0039EA30 /* GoogleService-Info.plist */,
+				46BA5959245E63750039EA30 /* ViewControllers */,
+			);
+			path = "Travel-o_Aoteroa";
+			sourceTree = "<group>";
+		};
+		46BA5959245E63750039EA30 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				466F483B245D827400C44F0B /* LoginController.swift */,
+				466F483D245D849100C44F0B /* RegisterController.swift */,
+				46E61F762451A9D900E2E6A6 /* NI_ViewController.swift */,
+				465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */,
+				46E8AAA52446966E00616688 /* CollectionViewCell.swift */,
+				46A0044A2437004D00C96B86 /* ViewController.swift */,
+				46019A2A2447111C0050C810 /* SI_CollectionViewCell.swift */,
+				46E61F7424519D0300E2E6A6 /* SI_DViewController.swift */,
+				46E61F782451A9E900E2E6A6 /* SI_ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		46C32282247154690043ECD7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46C32283247154690043ECD7 /* Spark.swift */,
+				46C32284247154690043ECD7 /* FaveIcon.swift */,
+				46C32285247154690043ECD7 /* FaveButton.swift */,
+				46C32286247154690043ECD7 /* Ring.swift */,
+				46C32287247154690043ECD7 /* Helpers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46C32287247154690043ECD7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46C32288247154690043ECD7 /* Geometry.swift */,
+				46C32289247154690043ECD7 /* Easing.swift */,
+				46C3228A247154690043ECD7 /* Init.swift */,
+				46C3228B247154690043ECD7 /* Constraints+.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6969452BDD4C17B3C75093E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A84C95A5D1569E292370975 /* Pods_Travel_o_Aoteroa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1B29DAE855E0EC517B030C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A3DAC3A6ADC7480DC34E559 /* Pods-Travel-o_Aoteroa.debug.xcconfig */,
+				E095B162DCD364B9A58041DE /* Pods-Travel-o_Aoteroa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46A004422437004D00C96B86 /* Travel-o_Aoteroa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A004572437005000C96B86 /* Build configuration list for PBXNativeTarget "Travel-o_Aoteroa" */;
+			buildPhases = (
+				12B74A4CF4B97A7153FA3C53 /* [CP] Check Pods Manifest.lock */,
+				46A0043F2437004D00C96B86 /* Sources */,
+				46A004402437004D00C96B86 /* Frameworks */,
+				46A004412437004D00C96B86 /* Resources */,
+				3EFB86495AA2C0C1D538EF47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel-o_Aoteroa";
+			productName = "Travel-o_Aoteroa";
+			productReference = 46A004432437004D00C96B86 /* Travel-o_Aoteroa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A0043B2437004D00C96B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "chirag patel";
+				TargetAttributes = {
+					46A004422437004D00C96B86 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 46A0043E2437004D00C96B86 /* Build configuration list for PBXProject "Travel-o_Aoteroa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46A0043A2437004D00C96B86;
+			productRefGroup = 46A004442437004D00C96B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A004422437004D00C96B86 /* Travel-o_Aoteroa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A004412437004D00C96B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A004532437005000C96B86 /* LaunchScreen.storyboard in Resources */,
+				46A004502437005000C96B86 /* Assets.xcassets in Resources */,
+				46A0044E2437004D00C96B86 /* Main.storyboard in Resources */,
+				46BA5969245E723B0039EA30 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B74A4CF4B97A7153FA3C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travel-o_Aoteroa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EFB86495AA2C0C1D538EF47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel-o_Aoteroa/Pods-Travel-o_Aoteroa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel-o_Aoteroa/Pods-Travel-o_Aoteroa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travel-o_Aoteroa/Pods-Travel-o_Aoteroa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A0043F2437004D00C96B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E61F792451A9E900E2E6A6 /* SI_ViewController.swift in Sources */,
+				46C32291247154690043ECD7 /* Easing.swift in Sources */,
+				46C3228D247154690043ECD7 /* FaveIcon.swift in Sources */,
+				46A0044B2437004D00C96B86 /* ViewController.swift in Sources */,
+				466F483E245D849100C44F0B /* RegisterController.swift in Sources */,
+				46C3228F247154690043ECD7 /* Ring.swift in Sources */,
+				46C3228C247154690043ECD7 /* Spark.swift in Sources */,
+				46A004472437004D00C96B86 /* AppDelegate.swift in Sources */,
+				46C32290247154690043ECD7 /* Geometry.swift in Sources */,
+				46BEBF47245EC77500C820C5 /* Validation.swift in Sources */,
+				46E8AAA62446966E00616688 /* CollectionViewCell.swift in Sources */,
+				46E61F7524519D0300E2E6A6 /* SI_DViewController.swift in Sources */,
+				46C3228E247154690043ECD7 /* FaveButton.swift in Sources */,
+				46C32292247154690043ECD7 /* Init.swift in Sources */,
+				46BA5967245E705F0039EA30 /* Utilities.swift in Sources */,
+				465D69E1244D27FC00FB2A0E /* NI_DViewController.swift in Sources */,
+				46C32293247154690043ECD7 /* Constraints+.swift in Sources */,
+				46019A2B2447111C0050C810 /* SI_CollectionViewCell.swift in Sources */,
+				46A004492437004D00C96B86 /* SceneDelegate.swift in Sources */,
+				46E61F772451A9D900E2E6A6 /* NI_ViewController.swift in Sources */,
+				466F483C245D827400C44F0B /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46A0044C2437004D00C96B86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A0044D2437004D00C96B86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46A004512437005000C96B86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A004522437005000C96B86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46A004552437005000C96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46A004562437005000C96B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46A004582437005000C96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3DAC3A6ADC7480DC34E559 /* Pods-Travel-o_Aoteroa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QW797ZKUR9;
+				INFOPLIST_FILE = "Travel-o_Aoteroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Travelogy.Travel-o-Aoteroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46A004592437005000C96B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E095B162DCD364B9A58041DE /* Pods-Travel-o_Aoteroa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QW797ZKUR9;
+				INFOPLIST_FILE = "Travel-o_Aoteroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Travelogy.Travel-o-Aoteroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A0043E2437004D00C96B86 /* Build configuration list for PBXProject "Travel-o_Aoteroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A004552437005000C96B86 /* Debug */,
+				46A004562437005000C96B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A004572437005000C96B86 /* Build configuration list for PBXNativeTarget "Travel-o_Aoteroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A004582437005000C96B86 /* Debug */,
+				46A004592437005000C96B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A0043B2437004D00C96B86 /* Project object */;
+}
