@@ -11,8 +11,9 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 import FirebaseAuth
 
-class RegisterController: UIViewController {
+class RegisterController: UIViewController,UITextFieldDelegate {
     
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var txt_fname: UITextField!
     @IBOutlet weak var txt_lname: UITextField!
     @IBOutlet weak var txt_email: UITextField!
@@ -44,6 +45,34 @@ class RegisterController: UIViewController {
     
     
     var validation = Validation()
+    
+    //Hnadling keyboard
+    func textFieldDidBeginEditing(_ textField: UITextField)
+    {
+        if(textField == txt_email)
+        {
+            scrollView.setContentOffset(CGPoint(x: 0,y: 200), animated: true)
+            
+        }
+        else
+        {
+            scrollView.setContentOffset(CGPoint(x: 0,y: 200), animated: true)
+        }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        txt_fname.resignFirstResponder()
+        txt_lname.resignFirstResponder()
+        txt_email.resignFirstResponder()
+        txt_pwd.resignFirstResponder()
+        txt_cnfpwd.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        scrollView.setContentOffset(CGPoint(x: 0,y: 0), animated: true)
+    }
+    
     
     
     
