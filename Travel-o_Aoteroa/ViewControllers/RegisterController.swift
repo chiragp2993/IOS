@@ -100,7 +100,7 @@ class RegisterController: UIViewController,UITextFieldDelegate {
         }
         let isValidatePass = self.validation.validatePassword(password: password)
         if (isValidatePass == false) {
-            lbl_error.text = "Incorrect Password"
+            lbl_error.text = "Minimum 8 characters at least 1 Alphabet and 1 Number"
             return
         }
         let isValidateCnfPass = self.validation.validateCnfPassword(cpassword: cnfpassword)

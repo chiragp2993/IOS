@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46019A2B2447111C0050C810 /* SI_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46019A2A2447111C0050C810 /* SI_CollectionViewCell.swift */; };
+		464B1514247C8639000D03EC /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B1513247C8639000D03EC /* ForgotPasswordVC.swift */; };
 		465D69E1244D27FC00FB2A0E /* NI_DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */; };
 		466F483C245D827400C44F0B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F483B245D827400C44F0B /* LoginController.swift */; };
 		466F483E245D849100C44F0B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F483D245D849100C44F0B /* RegisterController.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		1A84C95A5D1569E292370975 /* Pods_Travel_o_Aoteroa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_o_Aoteroa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46019A2A2447111C0050C810 /* SI_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SI_CollectionViewCell.swift; sourceTree = "<group>"; };
+		464B1513247C8639000D03EC /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NI_DViewController.swift; sourceTree = "<group>"; };
 		466F483B245D827400C44F0B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		466F483D245D849100C44F0B /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				466F483B245D827400C44F0B /* LoginController.swift */,
 				466F483D245D849100C44F0B /* RegisterController.swift */,
+				464B1513247C8639000D03EC /* ForgotPasswordVC.swift */,
 				46E61F762451A9D900E2E6A6 /* NI_ViewController.swift */,
 				465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */,
 				46E8AAA52446966E00616688 /* CollectionViewCell.swift */,
@@ -300,6 +303,7 @@
 				46E61F7524519D0300E2E6A6 /* SI_DViewController.swift in Sources */,
 				46C3228E247154690043ECD7 /* FaveButton.swift in Sources */,
 				46C32292247154690043ECD7 /* Init.swift in Sources */,
+				464B1514247C8639000D03EC /* ForgotPasswordVC.swift in Sources */,
 				46BA5967245E705F0039EA30 /* Utilities.swift in Sources */,
 				465D69E1244D27FC00FB2A0E /* NI_DViewController.swift in Sources */,
 				46C32293247154690043ECD7 /* Constraints+.swift in Sources */,

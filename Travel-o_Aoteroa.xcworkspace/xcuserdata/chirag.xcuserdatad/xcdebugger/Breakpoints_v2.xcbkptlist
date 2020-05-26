@@ -64,8 +64,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
             endingLineNumber = "112"
-            landmarkName = "loginTapped(_:)"
-            landmarkType = "7">
+            landmarkName = "LoginController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -82,6 +82,54 @@
             endingLineNumber = "33"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDAB48F1-9B8C-4A7B-B7ED-A02586787BBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Travel-o_Aoteroa/ViewControllers/ForgotPasswordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "resetPassword()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDAB48F1-9B8C-4A7B-B7ED-A02586787BBC - 6793c86a282059fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.ForgotPasswordVC.resetPassword() -&gt; ()"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/ForgotPasswordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "BDAB48F1-9B8C-4A7B-B7ED-A02586787BBC - 765a9586bbc01d1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Travel_o_Aoteroa.ForgotPasswordVC.resetPassword() -&gt; ()"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/ForgotPasswordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
