@@ -8,7 +8,7 @@
 
 import UIKit
 import FaveButton
-
+import MapKit
 
 func color(_ rgbColor: Int) -> UIColor{
     return UIColor(
@@ -19,13 +19,14 @@ func color(_ rgbColor: Int) -> UIColor{
     )
 }
 
-class NI_DViewController: UIViewController,FaveButtonDelegate {
+class NI_DViewController: UIViewController,FaveButtonDelegate, CLLocationManagerDelegate, MKMapViewDelegate {
 
+    @IBOutlet weak var NI_mapKit: MKMapView!
     @IBOutlet weak var NID_img: UIImageView!
     @IBOutlet weak var NID_lbl: UILabel!
     @IBOutlet weak var NID_desc: UILabel!
     @IBOutlet weak var starButton: FaveButton?
-   
+    let locationManager = CLLocationManager()
     
     
         
@@ -40,7 +41,59 @@ class NI_DViewController: UIViewController,FaveButtonDelegate {
         NID_lbl.text=NI_title
         NID_img.image=UIImage(named: NI_title)
         NID_desc.text=NI_description
+        NI_mapKit.delegate = self
+        NI_mapKit.showsScale = true
+        NI_mapKit.showsCompass = true
+        NI_mapKit.showsUserLocation = true
         
+        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
+        //locationManager.requestLocation()
+        
+        if CLLocationManager.locationServicesEnabled(){
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.startUpdatingLocation()
+        }
+        let sourceCoord = locationManager.location?.coordinate
+        //let sourceCoord = CLLocationCoordinate2D(latitude: -36.9530, longitude: 174.4688)
+        let destCoord = CLLocationCoordinate2D( latitude: -36.9286, longitude: 174.7203 )
+        let sourcePlacemark = MKPlacemark(coordinate: sourceCoord!)
+        let destPlacemark = MKPlacemark(coordinate: destCoord)
+        let sourceItem = MKMapItem(placemark: sourcePlacemark)
+        let destItem = MKMapItem(placemark: destPlacemark)
+        let directionRequest = MKDirections.Request()
+        directionRequest.source = sourceItem
+        directionRequest.destination = destItem
+        directionRequest.transportType = .walking
+        let directions = MKDirections(request: directionRequest)
+        directions.calculate(completionHandler: {
+            response,error in
+             
+            guard let response = response
+            else
+            {
+                if let error = error {
+                    print("wrong !!")
+                }
+                return
+            }
+            let route = response.routes[0]
+            self.NI_mapKit.addOverlay(route.polyline, level: .aboveRoads)
+            
+            let rekt = route.polyline.boundingMapRect
+            self.NI_mapKit.setRegion(MKCoordinateRegion(rekt), animated: true)
+        
+        })
+    }
+    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer
+    {
+        let renderer = MKPolylineRenderer(overlay: overlay)
+        renderer.strokeColor = UIColor(red: 253/255, green:
+        127/255, blue: 82/255, alpha: 1)
+        renderer.lineWidth = 4.0
+        return renderer
     }
     
     let colors = [

@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		1A84C95A5D1569E292370975 /* Pods_Travel_o_Aoteroa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_o_Aoteroa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46019A2A2447111C0050C810 /* SI_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SI_CollectionViewCell.swift; sourceTree = "<group>"; };
+		460F2C732484E4B00059DA16 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/Info.plist"; sourceTree = "<absolute>"; };
 		464B1513247C8639000D03EC /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		465D69E0244D27FC00FB2A0E /* NI_DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NI_DViewController.swift; sourceTree = "<group>"; };
 		466F483B245D827400C44F0B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 				46BA5964245E705F0039EA30 /* Utilities.swift */,
 				46BEBF46245EC77500C820C5 /* Validation.swift */,
 				46BA5968245E723B0039EA30 /* GoogleService-Info.plist */,
+				460F2C732484E4B00059DA16 /* Info.plist */,
 				46BA5959245E63750039EA30 /* ViewControllers */,
 			);
 			path = "Travel-o_Aoteroa";

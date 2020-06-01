@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AEE-jS-b6B">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AEE-jS-b6B">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -758,6 +758,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="430" id="1KG-iq-93f"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outlet property="delegate" destination="xZK-cE-lWx" id="qrp-Tm-ISa"/>
+                                                </connections>
                                             </mapView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by Travel-o-gy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Rz-5M-oPU">
                                                 <rect key="frame" x="0.0" y="720.5" width="400" height="14.5"/>
@@ -810,6 +813,7 @@
                         <outlet property="NID_desc" destination="K5a-7A-BNG" id="eJZ-pS-jVn"/>
                         <outlet property="NID_img" destination="wkx-zP-Ht0" id="haQ-Nf-CM9"/>
                         <outlet property="NID_lbl" destination="Vt1-GN-Wgh" id="Pv7-rT-lhb"/>
+                        <outlet property="NI_mapKit" destination="iKy-XA-zu0" id="sZN-Qs-HeS"/>
                         <outlet property="starButton" destination="F4L-9o-MAR" id="D2F-oL-f5h"/>
                     </connections>
                 </viewController>
