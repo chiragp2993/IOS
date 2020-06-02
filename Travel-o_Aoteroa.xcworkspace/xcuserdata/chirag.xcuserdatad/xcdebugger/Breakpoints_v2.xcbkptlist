@@ -135,31 +135,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "88FB1B88-08F8-449D-A18F-9C3ED24E81C2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Travel-o_Aoteroa/ViewControllers/NI_ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "collectionView(_:numberOfItemsInSection:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2724F56D-605F-4C63-9BB6-EA3B22A33775"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,10 +158,134 @@
             filePath = "Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7CD43D0-0446-46FE-AC91-BC587CDA3A0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "NI_DViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522 - 2f200f646a824364"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.NI_DViewController.NI_description.getter : Swift.String"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522 - 33b9f7eac4a55f68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.NI_DViewController.NI_description.setter : Swift.String"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522 - f2dada031da97299"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.NI_DViewController.NI_description.modify : Swift.String"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522 - a548a1171f963b1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.NI_DViewController.NI_description.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522 - d281041f40c61a46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.NI_DViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Travel_o_Aoteroa.NI_DViewController"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1599">
+               </Location>
+               <Location
+                  uuid = "29297FDF-4BB9-4178-A9E8-CE3451254522 - c2691273bbe397b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.NI_DViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Travel_o_Aoteroa.NI_DViewController&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1534">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

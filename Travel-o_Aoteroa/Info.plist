@@ -28,6 +28,8 @@
 	<string>Travel-o_Aoteroa</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Travel-o_Aoteroa</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Travel-o_Aoteroa</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

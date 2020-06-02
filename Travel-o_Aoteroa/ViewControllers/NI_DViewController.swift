@@ -26,6 +26,8 @@ class NI_DViewController: UIViewController,FaveButtonDelegate, CLLocationManager
     @IBOutlet weak var NID_lbl: UILabel!
     @IBOutlet weak var NID_desc: UILabel!
     @IBOutlet weak var starButton: FaveButton?
+    @IBOutlet weak var NID_latitude:UILabel!
+    @IBOutlet weak var NID_long:UILabel!
     let locationManager = CLLocationManager()
     
     
@@ -33,7 +35,9 @@ class NI_DViewController: UIViewController,FaveButtonDelegate, CLLocationManager
     var NI_title = String()
     
     var NI_image = UIImage()
-    var NI_description=String()
+    var NI_description = String()
+    var NI_latitude = String()
+    var NI_long = String()
     
     override func viewDidLoad() {
         
@@ -41,6 +45,10 @@ class NI_DViewController: UIViewController,FaveButtonDelegate, CLLocationManager
         NID_lbl.text=NI_title
         NID_img.image=UIImage(named: NI_title)
         NID_desc.text=NI_description
+        NID_latitude.text=NI_latitude
+        NID_long.text=NI_long
+        
+        
         NI_mapKit.delegate = self
         NI_mapKit.showsScale = true
         NI_mapKit.showsCompass = true
@@ -57,7 +65,7 @@ class NI_DViewController: UIViewController,FaveButtonDelegate, CLLocationManager
         }
         let sourceCoord = locationManager.location?.coordinate
         //let sourceCoord = CLLocationCoordinate2D(latitude: -36.9530, longitude: 174.4688)
-        let destCoord = CLLocationCoordinate2D( latitude: -36.9286, longitude: 174.7203 )
+        let destCoord = CLLocationCoordinate2D( latitude: (NI_latitude as NSString).doubleValue, longitude: (NI_long as NSString).doubleValue)
         let sourcePlacemark = MKPlacemark(coordinate: sourceCoord!)
         let destPlacemark = MKPlacemark(coordinate: destCoord)
         let sourceItem = MKMapItem(placemark: sourcePlacemark)

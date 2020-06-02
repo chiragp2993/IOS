@@ -10,10 +10,12 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var btn_star: UIButton!
+    //@IBOutlet weak var btn_star: UIButton!
     @IBOutlet weak var NI_img: UIImageView!
     @IBOutlet weak var NI_lbl: UILabel!
     @IBOutlet weak var NI_desc: UILabel!
+    @IBOutlet weak var NI_latitude: UILabel!
+    @IBOutlet weak var NI_long: UILabel!
     
     
 }
