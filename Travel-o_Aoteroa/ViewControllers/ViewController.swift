@@ -13,7 +13,9 @@ import FirebaseFirestoreSwift
 import FirebaseAuth
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var btn_NI: UIButton!
+    
+    @IBOutlet weak var btn_SI: UIButton!
     
     
     @IBAction func btn_NI(_ sender: Any) {
@@ -24,8 +26,8 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
-    
-    super.viewDidLoad()
+        super.viewDidLoad()
+         
     //overrideUserInterfaceStyle = .dark
 
 

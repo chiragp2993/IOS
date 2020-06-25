@@ -48,61 +48,63 @@ class NI_DViewController: UIViewController,FaveButtonDelegate, CLLocationManager
         NID_latitude.text=NI_latitude
         NID_long.text=NI_long
         
-        
         NI_mapKit.delegate = self
         NI_mapKit.showsScale = true
         NI_mapKit.showsCompass = true
         NI_mapKit.showsUserLocation = true
-        
         locationManager.requestAlwaysAuthorization()
         locationManager.requestWhenInUseAuthorization()
-        //locationManager.requestLocation()
+        
         
         if CLLocationManager.locationServicesEnabled(){
             locationManager.delegate = self
-            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
             locationManager.startUpdatingLocation()
         }
-        let sourceCoord = locationManager.location?.coordinate
-        //let sourceCoord = CLLocationCoordinate2D(latitude: -36.9530, longitude: 174.4688)
-        let destCoord = CLLocationCoordinate2D( latitude: (NI_latitude as NSString).doubleValue, longitude: (NI_long as NSString).doubleValue)
-        let sourcePlacemark = MKPlacemark(coordinate: sourceCoord!)
-        let destPlacemark = MKPlacemark(coordinate: destCoord)
-        let sourceItem = MKMapItem(placemark: sourcePlacemark)
-        let destItem = MKMapItem(placemark: destPlacemark)
-        let directionRequest = MKDirections.Request()
-        directionRequest.source = sourceItem
-        directionRequest.destination = destItem
-        directionRequest.transportType = .walking
-        let directions = MKDirections(request: directionRequest)
-        directions.calculate(completionHandler: {
-            response,error in
-             
-            guard let response = response
-            else
-            {
-                if let error = error {
-                    print("wrong !!")
-                }
-                return
-            }
-            let route = response.routes[0]
-            self.NI_mapKit.addOverlay(route.polyline, level: .aboveRoads)
-            
-            let rekt = route.polyline.boundingMapRect
-            self.NI_mapKit.setRegion(MKCoordinateRegion(rekt), animated: true)
         
-        })
-    }
+            let sourceLocation = locationManager.location?.coordinate
+            let destinationLocation = CLLocationCoordinate2D( latitude: (NI_latitude as NSString).doubleValue, longitude: (NI_long as NSString).doubleValue)
+            let destinationPin = customPin(pinTitle: NI_title, pinSubTitle: "", location: destinationLocation)
+            self.NI_mapKit.addAnnotation(destinationPin)
+            
+            let sourcePlaceMark = MKPlacemark(coordinate: sourceLocation!)
+            let destinationPlaceMark = MKPlacemark(coordinate: destinationLocation)
+            
+        let directionRequest = MKDirections.Request()
+            directionRequest.source = MKMapItem(placemark: sourcePlaceMark)
+            directionRequest.destination = MKMapItem(placemark: destinationPlaceMark)
+            directionRequest.transportType = .automobile
+            
+            let directions = MKDirections(request: directionRequest)
+            directions.calculate { (response, error) in
+                guard let directionResonse = response else {
+                    if let error = error {
+                        print("we have error getting directions==\(error.localizedDescription)")
+                    }
+                    return
+                }
+                
+                let route = directionResonse.routes[0]
+                self.NI_mapKit.addOverlay(route.polyline, level: .aboveRoads)
+                
+                let rect = route.polyline.boundingMapRect
+                self.NI_mapKit.setRegion(MKCoordinateRegion(rect), animated: true)
+            }
+            
+            self.NI_mapKit.delegate = self
+
+
+        }
+        
+        //MARK:- MapKit delegates
+
+        func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+            let renderer = MKPolylineRenderer(overlay: overlay)
+            renderer.strokeColor = UIColor.blue
+            renderer.lineWidth = 4.0
+            return renderer
+        }
     
-    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer
-    {
-        let renderer = MKPolylineRenderer(overlay: overlay)
-        renderer.strokeColor = UIColor(red: 253/255, green:
-        127/255, blue: 82/255, alpha: 1)
-        renderer.lineWidth = 4.0
-        return renderer
-    }
     
     let colors = [
         DotColors(first: color(0x7DC2F4), second: color(0xE2264D)),

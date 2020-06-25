@@ -14,6 +14,10 @@ class SI_CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var SI_img: UIImageView!
     @IBOutlet weak var SI_lbl: UILabel!
     @IBOutlet weak var SI_desc: UILabel!
+    //@IBOutlet weak var SI_latitude: UILabel!
+    @IBOutlet weak var SI_latitude: UILabel!
+    //@IBOutlet weak var SI_long: UILabel!
+    @IBOutlet weak var SI_long: UILabel!
     
     
 }

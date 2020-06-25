@@ -78,8 +78,8 @@
             filePath = "Travel-o_Aoteroa/ViewControllers/SI_DViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -130,38 +130,6 @@
                   offsetFromSymbolStart = "87">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2724F56D-605F-4C63-9BB6-EA3B22A33775"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2FC7D1A0-9246-45B5-96E3-4B1E4A519998"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Travel-o_Aoteroa/ViewControllers/NI_DViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -284,6 +252,222 @@
                   startingLineNumber = "38"
                   endingLineNumber = "38"
                   offsetFromSymbolStart = "1534">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "RegisterController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212 - 6e98ea0eef579479"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.btn_signup.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212 - 920b4d501d1dc46d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.btn_signup.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212 - 25a9a993c4ef387a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.btn_signup.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212 - 6d7d34cf08a876a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.btn_signup.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212 - 9f30a55ea1af5d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Travel_o_Aoteroa.RegisterController"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "747179D4-06AC-46F4-AD54-07CE25FAE212 - d64bb382b42ae267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Travel_o_Aoteroa.RegisterController&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "RegisterController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3 - b1573226a671754d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.lbl_error.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3 - 16d079683e6b9971"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.lbl_error.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3 - 4db766e0760b9e4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.lbl_error.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3 - 5572d7102f9534a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.lbl_error.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3 - 9f30a55ea1af5d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Travel_o_Aoteroa.RegisterController"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+               <Location
+                  uuid = "83A2A318-9EF9-4B34-8EE4-F3FB460887F3 - d64bb382b42ae267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Travel_o_Aoteroa.RegisterController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Travel_o_Aoteroa.RegisterController&gt;"
+                  moduleName = "Travel-o_Aoteroa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chirag/Downloads/Travelogy/Travel-o_Aoteroa/Travel-o_Aoteroa/ViewControllers/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "952">
                </Location>
             </Locations>
          </BreakpointContent>
