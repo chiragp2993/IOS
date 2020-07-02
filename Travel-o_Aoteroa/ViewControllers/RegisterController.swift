@@ -14,6 +14,7 @@ import FirebaseAuth
 class RegisterController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var txt_fname: UITextField!
     @IBOutlet weak var txt_lname: UITextField!
     @IBOutlet weak var txt_email: UITextField!
@@ -21,12 +22,23 @@ class RegisterController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var txt_cnfpwd: UITextField!
     @IBOutlet weak var btn_signup: UIButton!
     @IBOutlet weak var lbl_error: UILabel!
+    var activeField : UITextField?
+    
+    
+    
+
+
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         setup_elements()
         
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        
+        self.activeField = UITextField()
     }
     
     
@@ -56,16 +68,18 @@ class RegisterController: UIViewController,UITextFieldDelegate {
         }
         else
         {
+           
             scrollView.setContentOffset(CGPoint(x: 0,y: 200), animated: true)
         }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        txt_fname.resignFirstResponder()
-        txt_lname.resignFirstResponder()
-        txt_email.resignFirstResponder()
-        txt_pwd.resignFirstResponder()
-        txt_cnfpwd.resignFirstResponder()
+        textField.resignFirstResponder()
+        //txt_fname.resignFirstResponder()
+        //txt_lname.resignFirstResponder()
+        //txt_email.resignFirstResponder()
+        //txt_pwd.resignFirstResponder()
+        //txt_cnfpwd.resignFirstResponder()
         return true
     }
     
@@ -73,7 +87,32 @@ class RegisterController: UIViewController,UITextFieldDelegate {
         scrollView.setContentOffset(CGPoint(x: 0,y: 0), animated: true)
     }
     
-    
+    @objc func keyboardWillShow(notification:Notification)
+       {
+           guard let keyBoardinfo = notification.userInfo else {return}
+           if let keyboardSize = (keyBoardinfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue.size
+           {
+               let keyboardHeight = keyboardSize.height + 10
+               let contentInsets = UIEdgeInsets(top: 0, left: 0, bottom: keyboardHeight, right: 0)
+               self.scrollView.contentInset = contentInsets
+               var viewRect = self.view.frame
+               viewRect.size.height -= keyboardHeight
+               guard let activeField = self.activeField else {return}
+               if(!viewRect.contains(activeField.frame.origin))
+               {
+                   let scrollPoint = CGPoint(x: 0, y: activeField.frame.origin.y - keyboardHeight)
+                   self.scrollView.setContentOffset(scrollPoint, animated: true)
+               }
+               
+           }
+       }
+       
+       @objc func keyboardWillHide(notification:Notification)
+       {
+           let contentInsets = UIEdgeInsets.zero
+           self.scrollView.contentInset = contentInsets
+           
+       }
     
     
     @IBAction func SignUpTapped(_ sender: Any) {

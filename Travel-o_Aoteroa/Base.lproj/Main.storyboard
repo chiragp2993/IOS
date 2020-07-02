@@ -89,7 +89,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="V7B-Zo-QgI">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" id="V7B-Zo-QgI">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="5qA-iG-CBz"/>
@@ -159,6 +159,12 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZvW-o7-SLX" firstAttribute="height" secondItem="shL-tU-e2E" secondAttribute="height" multiplier="1.03448" id="W35-ks-F8j"/>
+                                    <constraint firstItem="ZvW-o7-SLX" firstAttribute="height" secondItem="u9F-CC-e8G" secondAttribute="height" multiplier="0.882353" id="cL4-Jc-IlO"/>
+                                    <constraint firstItem="ZvW-o7-SLX" firstAttribute="height" secondItem="pqW-Lu-s61" secondAttribute="height" multiplier="0.882353" id="ghf-g9-jJH"/>
+                                    <constraint firstItem="Gx3-Bz-GV4" firstAttribute="height" secondItem="ZvW-o7-SLX" secondAttribute="height" multiplier="1.03333" id="o0T-13-ay6"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -166,7 +172,6 @@
                             <constraint firstItem="V7B-Zo-QgI" firstAttribute="height" secondItem="Jwy-Jd-E86" secondAttribute="height" id="5eI-hE-CLz"/>
                             <constraint firstItem="V7B-Zo-QgI" firstAttribute="centerX" secondItem="Jwy-Jd-E86" secondAttribute="centerX" id="9eQ-iE-1d2"/>
                             <constraint firstItem="0OF-Kw-ac4" firstAttribute="centerY" secondItem="Jwy-Jd-E86" secondAttribute="centerY" id="M8E-i1-LA3"/>
-                            <constraint firstItem="V7B-Zo-QgI" firstAttribute="centerY" secondItem="Jwy-Jd-E86" secondAttribute="centerY" id="W50-Dm-OfM"/>
                             <constraint firstItem="0OF-Kw-ac4" firstAttribute="leading" secondItem="DbT-4t-R2G" secondAttribute="leading" constant="40" id="Yev-Rd-YUY"/>
                             <constraint firstItem="V7B-Zo-QgI" firstAttribute="width" secondItem="Jwy-Jd-E86" secondAttribute="width" id="lqQ-Is-Wr2"/>
                             <constraint firstItem="DbT-4t-R2G" firstAttribute="trailing" secondItem="0OF-Kw-ac4" secondAttribute="trailing" constant="40" id="qAk-YJ-Hhm"/>
@@ -196,12 +201,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" keyboardDismissMode="interactive" id="vus-c0-EaA">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" bounces="NO" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="always" bouncesZoom="NO" keyboardDismissMode="interactive" id="vus-c0-EaA">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="upe-DI-hb7">
-                                        <rect key="frame" x="40" y="155.5" width="334" height="463"/>
+                                        <rect key="frame" x="40" y="180" width="334" height="463"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3I-1u-FGP">
                                                 <rect key="frame" x="0.0" y="0.0" width="334" height="29"/>
@@ -277,7 +282,8 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="upe-DI-hb7" firstAttribute="centerY" secondItem="vus-c0-EaA" secondAttribute="centerY" id="uc8-DW-Tjm"/>
+                                    <constraint firstAttribute="bottom" secondItem="upe-DI-hb7" secondAttribute="bottom" constant="200" id="GoG-j4-4wz"/>
+                                    <constraint firstItem="upe-DI-hb7" firstAttribute="top" secondItem="vus-c0-EaA" secondAttribute="top" constant="180" id="ZHk-gt-L7z"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="fT6-Wa-WG9"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="S1l-h1-gl3"/>
@@ -289,7 +295,6 @@
                             <constraint firstItem="vus-c0-EaA" firstAttribute="width" secondItem="Fcy-Ad-Qyh" secondAttribute="width" id="Dht-x4-gih"/>
                             <constraint firstItem="upe-DI-hb7" firstAttribute="leading" secondItem="vk4-7s-nD9" secondAttribute="leading" constant="40" id="RRj-wJ-t87"/>
                             <constraint firstItem="vk4-7s-nD9" firstAttribute="trailing" secondItem="upe-DI-hb7" secondAttribute="trailing" constant="40" id="VQO-bg-Ljn"/>
-                            <constraint firstItem="upe-DI-hb7" firstAttribute="centerY" secondItem="vk4-7s-nD9" secondAttribute="centerY" id="ZGC-Ry-NGa"/>
                             <constraint firstItem="vus-c0-EaA" firstAttribute="height" secondItem="Fcy-Ad-Qyh" secondAttribute="height" id="qxY-VT-W0S"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vk4-7s-nD9"/>
@@ -299,6 +304,7 @@
                         <outlet property="btn_signup" destination="mMB-c4-HO2" id="dBu-QV-Vot"/>
                         <outlet property="lbl_error" destination="wCi-6H-OpQ" id="ahF-Qz-MUr"/>
                         <outlet property="scrollView" destination="vus-c0-EaA" id="4db-dl-c6B"/>
+                        <outlet property="stackView" destination="upe-DI-hb7" id="bKs-QH-z7d"/>
                         <outlet property="txt_cnfpwd" destination="yBV-sB-TOL" id="2yC-8O-INm"/>
                         <outlet property="txt_email" destination="t7h-3K-MAR" id="ynh-FQ-I92"/>
                         <outlet property="txt_fname" destination="EAv-xZ-CUQ" id="zuS-Lf-NfQ"/>

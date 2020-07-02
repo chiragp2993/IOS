@@ -79,17 +79,12 @@ class LoginController: UIViewController,UITextFieldDelegate {
             lbl_error.text = "Email Address is invalid"
             return
         }
-        let isValidatePass = self.validation.validatePassword(password: password)
-        if (isValidatePass == false)
-        {
-            lbl_error.text = "Password should consist of atleast 8 characters, atleast 1 special character and atleast a number"
-            return
-        }
         
         
         
         
-        if (isValidateEmail == true || isValidatePass == true)
+        
+        if (isValidateEmail == true)
         {
             
             //SignIn User in database
